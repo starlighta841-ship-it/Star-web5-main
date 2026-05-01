@@ -64,11 +64,13 @@ body{
 .header-login__btn{
     background-color: transparent;
 }
-.header-signup__btn a{
-    color: white;
-}
+
 .header-signup__btn{
     background-color: #ff553e;
+    color: #fff8f2;
+}
+.header-signup__btn:hover{
+    scale: 0.9;
 }
 .header-login__btn a{
     color: #ff482c;
@@ -110,11 +112,12 @@ body{
     border-radius: 2rem;
     background-color: #ff553e;
     margin-top: 1rem;
-}
-.text_group__btn a{
     font-size: var(--primary-btn__fontsize);
     font-weight: 600;
     color: white;
+}
+.text_group__btn:hover{
+    scale: 0.9;
 }
 .details{
    clip-path: polygon(73% 0, 82% 59%, 100% 59%, 100% 100%, 0 100%, 0 0);
