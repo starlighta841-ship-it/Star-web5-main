@@ -12,6 +12,7 @@
      font-size: 2rem;
     }
     .header-nav{
+        display: none;
         position: fixed;
         width: 40%;
         top: 0;
@@ -26,10 +27,10 @@
     .nav_ul{
         display: flex;
         flex-direction: column;
-        gap: 4rem;
+        gap: 5rem;
     }
     .nav-ul__links{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
     .hero-text__group{
         width: 100%;
