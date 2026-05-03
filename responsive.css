@@ -3,8 +3,33 @@
         gap:2rem;
         align-items: center;
     }
+    #showNav__btn{
+    display: block;
+    font-size: 2rem;
+    }
+    #hideNav__btn{
+    display: block;
+     font-size: 2rem;
+    }
     .header-nav{
-        display: none;
+        position: fixed;
+        width: 40%;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        background-color: rgba(240, 248, 255, 0.372);
+        backdrop-filter: blur(10px);
+        z-index: 222;
+        align-items: start;
+        padding-top: 5rem;
+    }
+    .nav_ul{
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+    }
+    .nav-ul__links{
+        font-size: 1.5rem;
     }
     .hero-text__group{
         width: 100%;
@@ -91,6 +116,14 @@
     border-bottom: none;
    }
     .details-con h2{
-    font-size: clamp(1rem, calc(8vw + 2rem),8rem);
-}
+    font-size: clamp(1rem, calc(8vw + 2rem),8rem);   
+    }
+    .header-nav{
+        width: 50%;
+    }
+    .nav_ul{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
 }
