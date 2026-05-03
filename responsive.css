@@ -121,6 +121,7 @@
     }
     .header-nav{
         width: 50%;
+        display: none;
     }
     .nav_ul{
         display: flex;
