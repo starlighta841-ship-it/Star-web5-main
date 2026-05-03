@@ -130,6 +130,9 @@ body{
     justify-content: start;
     background-color: aliceblue;
 }
+.header-nav{
+    transition: 0.3s ease;
+}
 .main-content{
     display: flex;
     flex-direction: column;
@@ -172,4 +175,18 @@ body{
     left: 22%;
     top:17%;
     filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.537))
+}
+#showNav__btn:active{
+    cursor: pointer;
+    scale: 1.1;
+}
+#showNav__btn{
+    display: none;
+}
+#hideNav__btn{
+    display: none;
+}
+#hideNav__btn:active{
+    cursor: pointer;
+    scale: 1.1;
 }
