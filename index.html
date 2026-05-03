@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header class="header">
@@ -20,12 +21,14 @@
                     <li class="nav-ul__items"><a href="#" class="nav-ul__links">Features</a></li>
                     <li class="nav-ul__items"><a href="#" class="nav-ul__links">Pricing</a></li>
                     <li class="nav-ul__items"><a href="#" class="nav-ul__links">Contact</a></li>
+                    <i onclick="hideNav()" id="hideNav__btn" class="fa-solid fa-x"></i>
                 </ul>
             </nav>
             <div class="header-btn__pair">
                 <button class="header-btn header-login__btn"> <a href="#">Login</a> </button>
                     <a class="header-btn header-signup__btn" href="#">Sign up</a>
             </div>
+            <i onclick="showNav()" id="showNav__btn" class="fa-solid fa-bars"></i>
         </div>
     </header>
 
